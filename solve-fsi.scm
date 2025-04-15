@@ -46,6 +46,6 @@
 (if (= (%rpgetvar 'udf/ongoing) 0)
   (begin
     (ti-menu-load-string "file/write-case-data final_result.cas.h5 yes")
-    ;(ti-menu-load-string "/exit yes")
+    (ti-menu-load-string "/exit")
   )
 )
